@@ -54,7 +54,7 @@ def quick_demo():
     
     vg = VoiceGenerator()
     vg.text_to_speech(
-        "Ai Alê!!! Mete com força, mete! David vai com força! Ai ai ai!",
+        "Testando 1,2 e 3. Esta é uma demonstração rápida do gerador de música.",
         language='pt-br',
         filename=os.path.join(OUTPUT_DIR, 'demo_voice.mp3')
     )
