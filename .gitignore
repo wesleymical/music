@@ -1,0 +1,62 @@
+# .gitignore para Music Generator
+
+# Output files (músicas geradas)
+output/*.mp3
+output/*.wav
+output/*.mid
+output/*.midi
+output/temp_*
+
+# Samples gerados
+samples/*.wav
+samples/*.mp3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Exceções (manter exemplos)
+!output/.gitkeep
+!samples/.gitkeep

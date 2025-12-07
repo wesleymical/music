@@ -1,0 +1,32 @@
+# Dependências do Music Generator
+# Instale com: pip install -r requirements.txt
+
+# Manipulação de MIDI
+MIDIUtil==1.2.1
+
+# Processamento de áudio
+pydub==0.25.1
+
+# Computação científica (para síntese de áudio)
+numpy==1.24.3
+
+# Text-to-Speech (Google TTS)
+gTTS==2.4.0
+
+# Opcional: Para processamento avançado de áudio
+# Descomente se precisar de recursos extras
+
+# librosa==0.10.1        # Análise de áudio avançada
+# soundfile==0.12.1      # Leitura/escrita de áudio
+# scipy==1.11.4          # Processamento de sinais
+# pyrubberband==0.3.0    # Pitch shifting de qualidade
+# python-rtmidi==1.5.8   # MIDI em tempo real
+# pretty_midi==0.2.10    # Manipulação avançada de MIDI
+
+# Para usar Bark (síntese de voz com IA - requer GPU)
+# transformers==4.35.2
+# torch==2.1.0
+# bark==1.0.0
+
+# Para usar MusicGen (geração de música com IA - requer GPU)
+# audiocraft==1.3.0
